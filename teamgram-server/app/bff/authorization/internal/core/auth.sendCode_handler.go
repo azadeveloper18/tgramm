@@ -22,13 +22,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/logic"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	statuspb "github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/internal/logic"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
+	statuspb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/status"
 
 	"google.golang.org/grpc/status"
 )

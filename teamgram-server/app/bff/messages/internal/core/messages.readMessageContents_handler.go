@@ -21,11 +21,11 @@ package core
 import (
 	"context"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/message"
+	msgpb "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/message/message"
 )
 
 // MessagesReadMessageContents

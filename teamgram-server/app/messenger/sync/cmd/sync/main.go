@@ -11,9 +11,9 @@
 package main
 
 import (
-	"github.com/teamgram/marmota/pkg/commands"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/commands"
 
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/server"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/server"
 )
 
 func main() {

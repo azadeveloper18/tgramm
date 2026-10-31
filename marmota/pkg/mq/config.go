@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/teamgram/marmota/pkg/error2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/error2"
 
 	"github.com/IBM/sarama"
 )

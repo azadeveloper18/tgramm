@@ -21,11 +21,11 @@ package core
 import (
 	"context"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/phonenumber"
 
 	"google.golang.org/grpc/status"
 )

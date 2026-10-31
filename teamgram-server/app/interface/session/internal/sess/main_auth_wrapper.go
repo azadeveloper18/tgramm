@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/queue2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/queue2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/status"
 
 	"github.com/zeromicro/go-zero/core/contextx"
 	"github.com/zeromicro/go-zero/core/jsonx"

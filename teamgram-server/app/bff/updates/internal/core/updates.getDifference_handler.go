@@ -22,10 +22,10 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/updates"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	chatpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/updates/updates"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 // UpdatesGetDifference

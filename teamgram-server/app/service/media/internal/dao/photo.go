@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlc"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlc"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/media/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/media"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 )

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/teamgram/teamgram-server/app/bff/qrcode/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/qrcode/internal/model"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

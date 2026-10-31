@@ -11,9 +11,9 @@
 package chats_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/chats/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/chats/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/chats/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/chats/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/chats/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/chats/internal/svc"
 )
 
 type (

@@ -19,13 +19,13 @@
 package dao
 
 import (
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/account/internal/config"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	authsession_client "github.com/teamgram/teamgram-server/app/service/authsession/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/internal/config"
+	sync_client "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/client"
+	authsession_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/client"
+	chat_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/client"
+	user_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/client"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )
 

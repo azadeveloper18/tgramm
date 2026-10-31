@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/error2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/error2"
 	"github.com/zeromicro/go-zero/core/logx"
 
 	"github.com/IBM/sarama"

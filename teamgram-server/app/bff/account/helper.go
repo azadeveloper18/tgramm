@@ -11,11 +11,11 @@
 package account_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/account/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/account/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/account/internal/svc"
-	"github.com/teamgram/teamgram-server/app/bff/account/plugin"
-	"github.com/teamgram/teamgram-server/pkg/code"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/plugin"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/code"
 )
 
 type (

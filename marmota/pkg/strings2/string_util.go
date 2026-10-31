@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teamgram/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
 )
 
 const (

@@ -11,10 +11,10 @@
 package drafts_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/drafts/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/drafts/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/drafts/internal/svc"
-	"github.com/teamgram/teamgram-server/app/bff/drafts/plugin"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/drafts/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/drafts/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/drafts/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/drafts/plugin"
 )
 
 type (

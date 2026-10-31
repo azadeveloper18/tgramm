@@ -22,14 +22,14 @@ import (
 	"context"
 	"math/rand"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/logic"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/internal/logic"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
+	msgpb "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 /*

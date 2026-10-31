@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/IBM/sarama"
-	"github.com/teamgram/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
 	"github.com/zeromicro/go-zero/core/logx"
 	ztrace "github.com/zeromicro/go-zero/core/trace"
 	"go.opentelemetry.io/otel/codes"

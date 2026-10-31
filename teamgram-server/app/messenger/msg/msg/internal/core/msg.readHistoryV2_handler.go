@@ -22,11 +22,11 @@ import (
 	"context"
 	"math"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/inbox"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
 )
 
 // MsgReadHistoryV2

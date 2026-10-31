@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway;
 
-option go_package = "github.com/teamgram/teamgram-server/app/interface/gnetway/gateway";
+option go_package = "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/gateway";
 
 import "gateway.tl.proto";
 

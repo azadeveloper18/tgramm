@@ -11,9 +11,9 @@
 package sponsoredmessages_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/sponsoredmessages/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/sponsoredmessages/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/sponsoredmessages/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/sponsoredmessages/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/sponsoredmessages/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/sponsoredmessages/internal/svc"
 )
 
 type (

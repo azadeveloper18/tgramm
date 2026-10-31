@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/ffmpeg"
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/models"
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/utils"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/ffmpeg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/models"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/utils"
 )
 
 // Transcoder Main struct

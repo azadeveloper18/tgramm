@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	mediapb "github.com/teamgram/teamgram-server/app/service/media/media"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/dialog"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
+	mediapb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/media"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/phonenumber"
 )
 
 // draft

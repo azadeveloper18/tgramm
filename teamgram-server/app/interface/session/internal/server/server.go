@@ -13,9 +13,9 @@ import (
 	"flag"
 	"time"
 
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/config"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/server/grpc"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/server/grpc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"

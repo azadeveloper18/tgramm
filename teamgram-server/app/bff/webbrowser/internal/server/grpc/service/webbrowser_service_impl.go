@@ -14,7 +14,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/webbrowser/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/webbrowser/internal/core"
 )
 
 // AccountGetWebBrowserSettings

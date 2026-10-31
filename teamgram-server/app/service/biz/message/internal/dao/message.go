@@ -10,7 +10,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/message/internal/dal/dataobject"
 	"github.com/zeromicro/go-zero/core/jsonx"
 )
 

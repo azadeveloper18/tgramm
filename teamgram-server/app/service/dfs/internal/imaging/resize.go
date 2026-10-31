@@ -23,7 +23,7 @@ import (
 	"image"
 	"strings"
 
-	"github.com/teamgram/marmota/pkg/bytes2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/bytes2"
 	"github.com/teamgram/proto/mtproto"
 
 	"github.com/disintegration/imaging"

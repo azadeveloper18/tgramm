@@ -9,7 +9,7 @@ package dao
 import (
 	"context"
 
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 )
 
 // SessionPusher abstracts push operations to a session node.

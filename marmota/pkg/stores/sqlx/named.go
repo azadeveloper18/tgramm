@@ -63,7 +63,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlx/reflectx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx/reflectx"
 )
 
 func bindAnyArgs(names []string, arg interface{}, m *reflectx.Mapper) ([]interface{}, error) {

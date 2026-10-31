@@ -19,8 +19,8 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/internal/dal/dataobject"
 )
 
 // ChatGetRecentChatInviteRequesters

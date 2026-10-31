@@ -18,7 +18,7 @@ package gnet
 import (
 	"time"
 
-	"github.com/teamgram/marmota/pkg/sync2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/sync2"
 	"github.com/teamgram/proto/mtproto"
 
 	"github.com/zeromicro/go-zero/core/logx"

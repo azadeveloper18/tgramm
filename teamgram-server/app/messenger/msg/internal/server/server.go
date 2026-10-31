@@ -21,11 +21,11 @@ package server
 import (
 	"flag"
 
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	inbox_helper "github.com/teamgram/teamgram-server/app/messenger/msg/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/internal/config"
-	msg_helper "github.com/teamgram/teamgram-server/app/messenger/msg/msg"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	inbox_helper "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/internal/config"
+	msg_helper "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"

@@ -11,12 +11,12 @@
 package dialog_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/dal/dao/mysql_dao"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/dal/dao/mysql_dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/svc"
 )
 
 type (

@@ -24,8 +24,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/teamgram-server/pkg/code/conf"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/code/conf"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

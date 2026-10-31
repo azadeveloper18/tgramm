@@ -10,8 +10,8 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/idgen/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/idgen/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/internal/dao"
 )
 
 type ServiceContext struct {

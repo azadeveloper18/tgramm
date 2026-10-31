@@ -19,17 +19,17 @@
 package dao
 
 import (
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/messages/internal/config"
-	msg_client "github.com/teamgram/teamgram-server/app/messenger/msg/msg/client"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	dialog_client "github.com/teamgram/teamgram-server/app/service/biz/dialog/client"
-	message_client "github.com/teamgram/teamgram-server/app/service/biz/message/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/messages/internal/config"
+	msg_client "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/client"
+	sync_client "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/client"
+	chat_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/client"
+	dialog_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/client"
+	message_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/message/client"
+	user_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/client"
+	idgen_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/client"
+	media_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/client"
 )
 
 type Dao struct {

@@ -19,9 +19,9 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/config"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/dao"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/sess"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/sess"
 )
 
 type ServiceContext struct {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package session;
 
-option go_package = "github.com/teamgram/teamgram-server/app/interface/session/session";
+option go_package = "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session";
 
 import "session.tl.proto";
 import "schema.tl.core_types.proto";

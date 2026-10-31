@@ -20,10 +20,10 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/inbox"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	chatpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 // InboxEditUserMessageToInbox

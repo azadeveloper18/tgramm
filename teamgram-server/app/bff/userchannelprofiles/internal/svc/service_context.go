@@ -19,8 +19,8 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/userchannelprofiles/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/userchannelprofiles/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/userchannelprofiles/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/userchannelprofiles/internal/dao"
 )
 
 type ServiceContext struct {

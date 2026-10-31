@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	extredis "github.com/teamgram/marmota/pkg/stores/redis"
+	extredis "github.com/azadeveloper18/tgramm/marmota/pkg/stores/redis"
 
 	"github.com/zeromicro/go-zero/core/errorx"
 	"github.com/zeromicro/go-zero/core/hash"

@@ -27,9 +27,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/models"
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/transcoder"
-	"github.com/teamgram/teamgram-server/pkg/goffmpeg/utils"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/models"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/transcoder"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/goffmpeg/utils"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -10,9 +10,9 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/plugin"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/plugin"
 )
 
 type ServiceContext struct {

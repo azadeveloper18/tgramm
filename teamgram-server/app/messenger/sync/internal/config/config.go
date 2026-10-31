@@ -19,12 +19,12 @@
 package config
 
 import (
-	kafka "github.com/teamgram/marmota/pkg/mq"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
 	"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 	"github.com/zeromicro/go-zero/zrpc"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
 )
 
 // Routine routine.

@@ -22,9 +22,9 @@ import (
 	"math/rand"
 
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	mediapb "github.com/teamgram/teamgram-server/app/service/media/media"
+	msgpb "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
+	chatpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	mediapb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/media"
 )
 
 // MessagesEditChatPhoto

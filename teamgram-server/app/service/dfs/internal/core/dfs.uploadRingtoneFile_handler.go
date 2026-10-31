@@ -24,11 +24,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/dfs"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/ffmpegutil"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/model"
 
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )

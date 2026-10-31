@@ -27,8 +27,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/teamgram/marmota/pkg/logx"
-	"github.com/teamgram/marmota/pkg/net/http/binding"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/logx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/http/binding"
 )
 
 // DefaultMaxUploadBytes is the default maximum size in bytes for a single uploaded file (32MB).

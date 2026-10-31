@@ -11,8 +11,8 @@
 package service
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/gateway"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/gateway"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/svc"
 )
 
 type Service struct {

@@ -13,14 +13,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/teamgram/marmota/pkg/cache"
-	"github.com/teamgram/marmota/pkg/net/ip"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/cache"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/ip"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	bff_proxy_client "github.com/teamgram/teamgram-server/app/bff/bff/client"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/config"
-	authsession_client "github.com/teamgram/teamgram-server/app/service/authsession/client"
-	status_client "github.com/teamgram/teamgram-server/app/service/status/client"
+	bff_proxy_client "github.com/azadeveloper18/tgramm/teamgram-server/app/bff/bff/client"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/config"
+	authsession_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/client"
+	status_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/client"
 
 	"github.com/zeromicro/go-zero/zrpc"
 )

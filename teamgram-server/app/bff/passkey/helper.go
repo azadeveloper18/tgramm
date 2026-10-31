@@ -11,9 +11,9 @@
 package passkeyhelper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/passkey/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/passkey/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/passkey/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/passkey/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/passkey/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/passkey/internal/svc"
 )
 
 type (

@@ -22,7 +22,7 @@ import (
 	"strconv"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/idgen/idgen"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/idgen"
 )
 
 // IdgenGetCurrentSeqIdList

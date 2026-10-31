@@ -13,7 +13,7 @@ import (
 	"fmt"
 
 	// use marmota/kv for consistency with dao layer (type alias of go-zero/core/stores/kv)
-	"github.com/teamgram/marmota/pkg/stores/kv"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/kv"
 	"github.com/zeromicro/go-zero/zrpc"
 )
 

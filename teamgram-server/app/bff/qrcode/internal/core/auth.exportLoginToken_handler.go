@@ -24,8 +24,8 @@ import (
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	"github.com/teamgram/teamgram-server/app/bff/qrcode/internal/model"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/qrcode/internal/model"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 
 	"google.golang.org/grpc/status"
 )

@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 	"github.com/zeromicro/go-zero/core/logx"

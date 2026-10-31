@@ -12,14 +12,14 @@ package dao
 import (
 	"sync"
 
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/config"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
-	status_client "github.com/teamgram/teamgram-server/app/service/status/client"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	sync_client "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/client"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/config"
+	chat_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/client"
+	idgen_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/client"
+	status_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/client"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 	"github.com/zeromicro/go-zero/zrpc"
 )

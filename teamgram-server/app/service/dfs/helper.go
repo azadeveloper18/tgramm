@@ -11,14 +11,14 @@
 package dfs_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/imaging"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/minio_util"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/server/http"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/imaging"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/minio_util"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/server/http"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/stores/kv"
 	"github.com/zeromicro/go-zero/zrpc"

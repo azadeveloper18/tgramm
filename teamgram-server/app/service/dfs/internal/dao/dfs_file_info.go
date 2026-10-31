@@ -22,7 +22,7 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/model"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

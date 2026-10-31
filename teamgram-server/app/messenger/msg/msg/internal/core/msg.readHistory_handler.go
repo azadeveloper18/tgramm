@@ -13,12 +13,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/teamgram/marmota/pkg/threading2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/threading2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/inbox"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/dialog"
 
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )

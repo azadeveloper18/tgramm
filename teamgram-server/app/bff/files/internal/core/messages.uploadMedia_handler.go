@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	mediapb "github.com/teamgram/teamgram-server/app/service/media/media"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
+	mediapb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/media"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/phonenumber"
 )
 
 // MessagesUploadMedia

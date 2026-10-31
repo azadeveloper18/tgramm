@@ -11,10 +11,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/core"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/svc"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/protobuf/proto"

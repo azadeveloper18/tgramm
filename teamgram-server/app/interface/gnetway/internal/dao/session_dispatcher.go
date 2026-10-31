@@ -11,8 +11,8 @@ import (
 	"strconv"
 
 	"github.com/teamgram/proto/mtproto"
-	sessionclient "github.com/teamgram/teamgram-server/app/interface/session/client"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	sessionclient "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/client"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 )
 
 // SessionDispatcher abstracts the communication between gnetway and session.

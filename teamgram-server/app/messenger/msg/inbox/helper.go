@@ -11,11 +11,11 @@
 package inbox_helper
 
 import (
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/core"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/server/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/svc"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/internal/server/mq"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/internal/svc"
 )
 
 type (

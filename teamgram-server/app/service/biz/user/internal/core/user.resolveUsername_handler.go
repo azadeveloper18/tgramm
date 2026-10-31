@@ -19,9 +19,9 @@
 package core
 
 import (
-	"github.com/teamgram/marmota/pkg/utils"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/utils"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 // UserResolveUsername

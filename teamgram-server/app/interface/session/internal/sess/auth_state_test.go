@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	authsessionclient "github.com/teamgram/teamgram-server/app/service/authsession/client"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	authsessionclient "github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/client"
 )
 
 func TestRPCErrorForAuthStateUsesRestartForTransientStates(t *testing.T) {

@@ -21,10 +21,10 @@ package server
 import (
 	"flag"
 
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/config"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/grpc"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/grpc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"

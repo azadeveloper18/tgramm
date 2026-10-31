@@ -28,8 +28,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/marmota/pkg/hex2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hex2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
 

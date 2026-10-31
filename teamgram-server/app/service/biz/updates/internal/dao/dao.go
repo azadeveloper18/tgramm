@@ -10,10 +10,10 @@
 package dao
 
 import (
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/internal/config"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/updates/internal/config"
+	idgen_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/client"
 
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )

@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/logic"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/pkg/code/conf"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/internal/logic"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/code/conf"
 
 	"google.golang.org/grpc/status"
 )

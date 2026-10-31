@@ -22,7 +22,7 @@ package brpc;
 option java_package = "com.brpc";
 option java_outer_classname = "Options";
 
-option go_package = "github.com/teamgram/teamgram-server/pkg/net2/brpc";
+option go_package = "github.com/azadeveloper18/tgramm/teamgram-server/pkg/net2/brpc";
 
 message MTProtoMeta {
   int64 auth_key_id = 1;

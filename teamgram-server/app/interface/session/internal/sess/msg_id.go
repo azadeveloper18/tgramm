@@ -21,7 +21,7 @@ package sess
 import (
 	"time"
 
-	"github.com/teamgram/marmota/pkg/sync2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/sync2"
 )
 
 var msgIdSeq = sync2.NewAtomicInt64(0)

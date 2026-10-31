@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	msgpb "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
 
 	"github.com/zeromicro/go-zero/core/contextx"
 	"github.com/zeromicro/go-zero/core/threading"

@@ -21,10 +21,10 @@ import (
 	"math/rand"
 
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	msgpb "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/sync"
+	chatpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 // MessagesImportChatInviteDE91436E

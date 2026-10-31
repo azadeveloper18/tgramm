@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/sync2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/sync2"
 )
 
 type MockEntry struct {

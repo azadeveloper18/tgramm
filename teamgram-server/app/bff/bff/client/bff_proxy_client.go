@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
 

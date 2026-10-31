@@ -1,11 +1,10 @@
-module github.com/teamgram/marmota
+module github.com/azadeveloper18/tgramm/marmota
 
 go 1.23.0
 
 require (
 	github.com/IBM/sarama v1.43.2
 	github.com/go-faster/errors v0.7.1
-	github.com/golang/protobuf v1.5.4
 	github.com/jackc/pgx/v5 v5.7.4
 	github.com/pkg/errors v0.9.1
 	github.com/redis/go-redis/v9 v9.18.0
@@ -42,6 +41,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect

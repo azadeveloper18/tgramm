@@ -12,9 +12,9 @@ package core
 import (
 	"errors"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlc"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlc"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/authsession/authsession"
 )
 
 // AuthsessionGetAuthStateData

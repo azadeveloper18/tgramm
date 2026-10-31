@@ -10,18 +10,18 @@
 package svc
 
 import (
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/marmota/pkg/stores/sqlc"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/internal/dao"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	// channel_client "github.com/teamgram/teamgram-server/app/service/biz/channel/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	dialog_client "github.com/teamgram/teamgram-server/app/service/biz/dialog/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlc"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/inbox/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/internal/dao"
+	sync_client "github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/client"
+	// channel_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/channel/client"
+	chat_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/client"
+	dialog_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/client"
+	user_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/client"
+	idgen_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/client"
 )
 
 type ServiceContext struct {

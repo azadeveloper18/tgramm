@@ -7,7 +7,7 @@
 package service
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/gateway"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/gateway"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/grpc"

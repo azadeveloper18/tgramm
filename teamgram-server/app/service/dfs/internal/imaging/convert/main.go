@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/imaging"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/imaging"
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"

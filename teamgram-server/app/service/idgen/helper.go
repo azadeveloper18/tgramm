@@ -11,7 +11,7 @@
 package idgen_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/idgen/internal/server"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/internal/server"
 )
 
 var (

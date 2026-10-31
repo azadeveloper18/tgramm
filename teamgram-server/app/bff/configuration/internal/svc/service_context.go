@@ -19,7 +19,7 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/configuration/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/configuration/internal/config"
 )
 
 type ServiceContext struct {

@@ -10,9 +10,9 @@
 package core
 
 import (
-	"github.com/teamgram/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/dialog"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 )

@@ -15,8 +15,8 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/core"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/status"
 )
 
 // StatusSetSessionOnline

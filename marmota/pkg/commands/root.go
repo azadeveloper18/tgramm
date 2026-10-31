@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/version"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/version"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

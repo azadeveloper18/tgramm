@@ -29,13 +29,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/marmota/pkg/hex2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hex2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/config"
-	sessionclient "github.com/teamgram/teamgram-server/app/interface/session/client"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/config"
+	sessionclient "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/client"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 
 	"github.com/panjf2000/gnet/v2"
 	"github.com/zeromicro/go-zero/core/logx"

@@ -20,8 +20,8 @@ import (
 
 	"strconv"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/message/internal/dal/dataobject"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

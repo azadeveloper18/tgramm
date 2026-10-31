@@ -19,13 +19,13 @@
 package dao
 
 import (
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/plugin"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/plugin"
 
-	"github.com/teamgram/marmota/pkg/stores/sqlc"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/internal/config"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlc"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/internal/config"
+	media_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/client"
 )
 
 // Dao dao.

@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	httpcodec "github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/pp"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/ws"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	httpcodec "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/pp"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/ws"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 
 	"github.com/gobwas/ws/wsutil"
 	"github.com/panjf2000/gnet/v2"

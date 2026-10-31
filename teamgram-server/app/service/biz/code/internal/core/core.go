@@ -13,7 +13,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/service/biz/code/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/code/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

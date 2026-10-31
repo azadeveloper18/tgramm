@@ -18,12 +18,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/bytes2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/bytes2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/imaging"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/dfs"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/imaging"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/model"
 )
 
 // DfsUploadWallPaperFile

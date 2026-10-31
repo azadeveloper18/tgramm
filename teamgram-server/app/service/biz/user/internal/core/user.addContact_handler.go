@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 )
 
 // UserAddContact

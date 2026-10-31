@@ -10,8 +10,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/core"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/grpc"

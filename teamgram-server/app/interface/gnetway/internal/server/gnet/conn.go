@@ -9,9 +9,9 @@ package gnet
 import (
 	"bytes"
 
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/codec"
-	httpcodec "github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/ws"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/codec"
+	httpcodec "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/ws"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 	"github.com/zeromicro/go-zero/core/logx"

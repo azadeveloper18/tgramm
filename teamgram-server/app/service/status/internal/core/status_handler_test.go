@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/teamgram/marmota/pkg/stores/kv"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/svc"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/kv"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/status"
 )
 
 // mockKVStore implements kv.ExtStore; override only the methods we need.

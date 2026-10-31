@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/pp"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/pp"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

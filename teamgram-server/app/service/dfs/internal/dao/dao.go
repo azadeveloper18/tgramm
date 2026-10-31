@@ -10,10 +10,10 @@
 package dao
 
 import (
-	"github.com/teamgram/marmota/pkg/stores/kv"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/minio_util"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/kv"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/minio_util"
+	idgen_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/idgen/client"
 
 	"github.com/zeromicro/go-zero/zrpc"
 )

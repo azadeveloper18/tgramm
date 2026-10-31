@@ -10,7 +10,7 @@
 package config
 
 import (
-	"github.com/teamgram/marmota/pkg/container2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/container2"
 	"github.com/zeromicro/go-zero/zrpc"
 )
 

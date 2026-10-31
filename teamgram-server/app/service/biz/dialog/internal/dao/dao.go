@@ -10,9 +10,9 @@
 package dao
 
 import (
-	"github.com/teamgram/marmota/pkg/stores/sqlc"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/config"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlc"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/config"
 )
 
 // Dao dao.

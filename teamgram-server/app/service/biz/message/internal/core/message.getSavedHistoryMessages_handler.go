@@ -22,7 +22,7 @@ import (
 	"math"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/message"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/message/message"
 )
 
 // MessageGetSavedHistoryMessages

@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/teamgram/marmota/pkg/hack"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/hack"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	httpcodec "github.com/teamgram/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	httpcodec "github.com/azadeveloper18/tgramm/teamgram-server/app/interface/gnetway/internal/server/gnet/http"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/interface/session/session"
 
 	"github.com/panjf2000/gnet/v2"
 	"github.com/zeromicro/go-zero/core/logx"

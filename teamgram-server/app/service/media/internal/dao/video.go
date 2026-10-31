@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/media/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/internal/dal/dataobject"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 	"google.golang.org/protobuf/types/known/wrapperspb"

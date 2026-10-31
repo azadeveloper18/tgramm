@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/account/internal/dao"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/model"
-	"github.com/teamgram/teamgram-server/pkg/code"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/account/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/authorization/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/code"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

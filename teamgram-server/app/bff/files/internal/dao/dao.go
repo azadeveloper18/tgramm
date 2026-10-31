@@ -19,11 +19,11 @@
 package dao
 
 import (
-	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/files/internal/config"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	dfs_client "github.com/teamgram/teamgram-server/app/service/dfs/client"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/net/rpcx"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/bff/files/internal/config"
+	user_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/client"
+	dfs_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/client"
+	media_client "github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/client"
 )
 
 type Dao struct {

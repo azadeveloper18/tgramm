@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/imaging"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/dfs"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/imaging"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/dfs/internal/model"
 
 	"github.com/minio/minio-go/v7"
 )

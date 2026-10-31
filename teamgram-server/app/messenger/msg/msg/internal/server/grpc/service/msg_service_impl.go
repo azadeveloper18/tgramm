@@ -14,8 +14,8 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/internal/core"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/internal/core"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/msg/msg/msg"
 )
 
 // MsgPushUserMessage

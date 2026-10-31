@@ -20,8 +20,8 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
 )
 
 // DialogGetPinnedSavedDialogs

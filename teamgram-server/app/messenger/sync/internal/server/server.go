@@ -12,10 +12,10 @@ package server
 import (
 	"flag"
 
-	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/server/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/svc"
+	kafka "github.com/azadeveloper18/tgramm/marmota/pkg/mq"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/server/mq"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"

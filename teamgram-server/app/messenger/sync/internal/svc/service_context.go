@@ -10,8 +10,8 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/dao"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/messenger/sync/internal/dao"
 )
 
 type ServiceContext struct {

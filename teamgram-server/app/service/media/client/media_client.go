@@ -15,7 +15,7 @@ import (
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/media/media"
 
 	"github.com/zeromicro/go-zero/zrpc"
 )

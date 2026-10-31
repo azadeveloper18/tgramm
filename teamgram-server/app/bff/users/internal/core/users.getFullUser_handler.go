@@ -19,11 +19,11 @@
 package core
 
 import (
-	"github.com/teamgram/marmota/pkg/utils"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/utils"
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	chatpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/chat/chat"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/dialog/dialog"
+	userpb "github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 
 	"github.com/zeromicro/go-zero/core/mr"
 	"google.golang.org/protobuf/types/known/wrapperspb"

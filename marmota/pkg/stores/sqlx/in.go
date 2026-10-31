@@ -17,7 +17,7 @@ package sqlx
 import (
 	"strings"
 
-	"github.com/teamgram/marmota/pkg/strings2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/strings2"
 )
 
 func InInt32List(elems []int32) string {

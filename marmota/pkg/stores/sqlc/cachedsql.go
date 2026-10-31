@@ -20,8 +20,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/teamgram/marmota/pkg/stores/cache"
-	"github.com/teamgram/marmota/pkg/stores/sqlx"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/cache"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/stores/sqlx"
 
 	"github.com/zeromicro/go-zero/core/stores/redis"
 	"github.com/zeromicro/go-zero/core/syncx"

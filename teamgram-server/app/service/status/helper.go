@@ -11,9 +11,9 @@
 package status_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/status/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/svc"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/config"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/server/grpc/service"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/status/internal/svc"
 )
 
 type (

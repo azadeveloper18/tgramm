@@ -8,11 +8,11 @@ package plugin
 
 import (
 	"context"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/azadeveloper18/tgramm/teamgram-server/app/service/biz/user/user"
 	"sort"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/pkg/mention"
+	"github.com/azadeveloper18/tgramm/teamgram-server/pkg/mention"
 
 	"mvdan.cc/xurls/v2"
 )

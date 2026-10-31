@@ -20,7 +20,7 @@ import (
 	"encoding/pem"
 	"os"
 
-	"github.com/teamgram/marmota/pkg/error2"
+	"github.com/azadeveloper18/tgramm/marmota/pkg/error2"
 
 	"github.com/pkg/errors"
 )
