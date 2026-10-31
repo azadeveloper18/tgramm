@@ -1,0 +1,575 @@
+{
+  "tables": [
+    "auth_key_infos",
+    "auth_keys",
+    "auth_op_logs",
+    "auth_seq_updates",
+    "auth_users",
+    "auths",
+    "bot_commands",
+    "bots",
+    "chat_invite_participants",
+    "chat_invites",
+    "chat_participants",
+    "chats",
+    "default_history_ttl",
+    "devices",
+    "dialog_filters",
+    "dialogs",
+    "documents",
+    "drafts",
+    "encrypted_files",
+    "hash_tags",
+    "imported_contacts",
+    "message_read_outbox",
+    "messages",
+    "phone_books",
+    "photo_sizes",
+    "photos",
+    "popular_contacts",
+    "predefined_users",
+    "saved_dialogs",
+    "unregistered_contacts",
+    "user_contacts",
+    "user_global_privacy_settings",
+    "user_notify_settings",
+    "user_peer_blocks",
+    "user_peer_settings",
+    "user_presences",
+    "user_privacies",
+    "user_profile_photos",
+    "user_pts_updates",
+    "user_saved_music",
+    "user_settings",
+    "username",
+    "users",
+    "video_sizes"
+  ],
+  "unique_indexes": {
+    "auth_key_infos": [
+      [
+        "auth_key_infos_auth_key_id_key",
+        [
+          "auth_key_id"
+        ]
+      ]
+    ],
+    "auth_keys": [
+      [
+        "auth_keys_auth_key_id_key",
+        [
+          "auth_key_id"
+        ]
+      ]
+    ],
+    "auth_op_logs": [],
+    "auth_seq_updates": [
+      [
+        "auth_seq_updates_auth_id_key",
+        [
+          "auth_id",
+          "user_id",
+          "seq"
+        ]
+      ]
+    ],
+    "auth_users": [
+      [
+        "auth_users_auth_key_id_key",
+        [
+          "auth_key_id",
+          "user_id"
+        ]
+      ]
+    ],
+    "auths": [
+      [
+        "auths_auth_key_id_key",
+        [
+          "auth_key_id"
+        ]
+      ]
+    ],
+    "bot_commands": [],
+    "bots": [
+      [
+        "bots_bot_id_key",
+        [
+          "bot_id"
+        ]
+      ],
+      [
+        "bots_token_key",
+        [
+          "token"
+        ]
+      ]
+    ],
+    "chat_invite_participants": [
+      [
+        "chat_invite_participants_link_key",
+        [
+          "link",
+          "user_id"
+        ]
+      ]
+    ],
+    "chat_invites": [
+      [
+        "chat_invites_link_key",
+        [
+          "link"
+        ]
+      ]
+    ],
+    "chat_participants": [
+      [
+        "chat_participants_chat_id_2_key",
+        [
+          "chat_id",
+          "user_id"
+        ]
+      ]
+    ],
+    "chats": [],
+    "default_history_ttl": [
+      [
+        "default_history_ttl_user_id_key",
+        [
+          "user_id"
+        ]
+      ]
+    ],
+    "devices": [
+      [
+        "devices_auth_key_id_key",
+        [
+          "auth_key_id",
+          "user_id",
+          "token_type"
+        ]
+      ]
+    ],
+    "dialog_filters": [
+      [
+        "dialog_filters_user_id_dialog_filter_id_key",
+        [
+          "user_id",
+          "dialog_filter_id"
+        ]
+      ]
+    ],
+    "dialogs": [
+      [
+        "dialogs_user_id_key",
+        [
+          "user_id",
+          "peer_type",
+          "peer_id"
+        ]
+      ],
+      [
+        "dialogs_user_id_2_key",
+        [
+          "user_id",
+          "peer_dialog_id"
+        ]
+      ]
+    ],
+    "documents": [
+      [
+        "documents_document_id_key",
+        [
+          "document_id"
+        ]
+      ]
+    ],
+    "drafts": [
+      [
+        "drafts_user_id_key",
+        [
+          "user_id",
+          "peer_dialog_id"
+        ]
+      ]
+    ],
+    "encrypted_files": [],
+    "hash_tags": [
+      [
+        "hash_tags_user_id_4_key",
+        [
+          "user_id",
+          "hash_tag",
+          "hash_tag_message_id"
+        ]
+      ]
+    ],
+    "imported_contacts": [
+      [
+        "imported_contacts_user_id_key",
+        [
+          "user_id"
+        ]
+      ],
+      [
+        "imported_contacts_user_id_2_key",
+        [
+          "user_id",
+          "imported_user_id"
+        ]
+      ]
+    ],
+    "message_read_outbox": [
+      [
+        "message_read_outbox_user_id_key",
+        [
+          "user_id",
+          "peer_dialog_id",
+          "read_user_id",
+          "read_outbox_max_id"
+        ]
+      ]
+    ],
+    "messages": [
+      [
+        "messages_user_id_2_key",
+        [
+          "user_id",
+          "user_message_box_id"
+        ]
+      ]
+    ],
+    "phone_books": [
+      [
+        "phone_books_auth_key_id_key",
+        [
+          "auth_key_id",
+          "client_id"
+        ]
+      ]
+    ],
+    "photo_sizes": [
+      [
+        "photo_sizes_photo_size_id_key",
+        [
+          "photo_size_id",
+          "size_type"
+        ]
+      ]
+    ],
+    "photos": [
+      [
+        "photos_photo_id_key",
+        [
+          "photo_id"
+        ]
+      ]
+    ],
+    "popular_contacts": [
+      [
+        "popular_contacts_phone_key",
+        [
+          "phone"
+        ]
+      ]
+    ],
+    "predefined_users": [
+      [
+        "predefined_users_phone_key",
+        [
+          "phone"
+        ]
+      ]
+    ],
+    "saved_dialogs": [
+      [
+        "saved_dialogs_user_id_key",
+        [
+          "user_id",
+          "peer_type",
+          "peer_id"
+        ]
+      ]
+    ],
+    "unregistered_contacts": [
+      [
+        "unregistered_contacts_phone_key",
+        [
+          "phone",
+          "importer_user_id"
+        ]
+      ]
+    ],
+    "user_contacts": [
+      [
+        "user_contacts_owner_user_id_key",
+        [
+          "owner_user_id",
+          "contact_user_id"
+        ]
+      ]
+    ],
+    "user_global_privacy_settings": [
+      [
+        "user_global_privacy_settings_user_id_key",
+        [
+          "user_id"
+        ]
+      ]
+    ],
+    "user_notify_settings": [
+      [
+        "user_notify_settings_user_id_key",
+        [
+          "user_id",
+          "peer_type",
+          "peer_id"
+        ]
+      ]
+    ],
+    "user_peer_blocks": [
+      [
+        "user_peer_blocks_user_id_2_key",
+        [
+          "user_id",
+          "peer_type",
+          "peer_id"
+        ]
+      ]
+    ],
+    "user_peer_settings": [
+      [
+        "user_peer_settings_user_id_key",
+        [
+          "user_id",
+          "peer_type",
+          "peer_id"
+        ]
+      ]
+    ],
+    "user_presences": [
+      [
+        "user_presences_user_id_key",
+        [
+          "user_id"
+        ]
+      ]
+    ],
+    "user_privacies": [
+      [
+        "user_privacies_user_id_key",
+        [
+          "user_id",
+          "key_type"
+        ]
+      ]
+    ],
+    "user_profile_photos": [
+      [
+        "user_profile_photos_user_id_key",
+        [
+          "user_id",
+          "photo_id"
+        ]
+      ]
+    ],
+    "user_pts_updates": [],
+    "user_saved_music": [
+      [
+        "user_saved_music_user_id_key",
+        [
+          "user_id",
+          "saved_music_id"
+        ]
+      ]
+    ],
+    "user_settings": [
+      [
+        "user_settings_user_id_key",
+        [
+          "user_id",
+          "key2"
+        ]
+      ]
+    ],
+    "username": [
+      [
+        "username_username_key",
+        [
+          "username"
+        ]
+      ]
+    ],
+    "users": [
+      [
+        "users_phone_key",
+        [
+          "phone"
+        ]
+      ]
+    ],
+    "video_sizes": [
+      [
+        "video_sizes_video_size_id_key",
+        [
+          "video_size_id",
+          "size_type"
+        ]
+      ]
+    ]
+  },
+  "unknown_sql": [],
+  "dao_files_changed": [
+    "app/messenger/msg/internal/dal/dao/mysql_dao/hash_tags_dao.go",
+    "app/service/authsession/internal/dal/dao/mysql_dao/auth_users_dao.go",
+    "app/service/authsession/internal/dal/dao/mysql_dao/auths_dao.go",
+    "app/service/biz/chat/internal/dal/dao/mysql_dao/chat_participants_dao.go",
+    "app/service/biz/chat/internal/dal/dao/mysql_dao/chats_dao.go",
+    "app/service/biz/dialog/internal/dal/dao/mysql_dao/dialog_filters_dao.go",
+    "app/service/biz/dialog/internal/dal/dao/mysql_dao/dialogs_dao.go",
+    "app/service/biz/dialog/internal/dal/dao/mysql_dao/drafts_dao.go",
+    "app/service/biz/dialog/internal/dal/dao/mysql_dao/saved_dialogs_dao.go",
+    "app/service/biz/message/internal/dal/dao/mysql_dao/chat_participants_dao.go",
+    "app/service/biz/message/internal/dal/dao/mysql_dao/chats_dao.go",
+    "app/service/biz/message/internal/dal/dao/mysql_dao/hash_tags_dao.go",
+    "app/service/biz/message/internal/dal/dao/mysql_dao/message_read_outbox_dao.go",
+    "app/service/biz/message/internal/dal/dao/mysql_dao/messages_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/default_history_ttl_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/imported_contacts_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/phone_books_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/popular_contacts_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/unregistered_contacts_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_contacts_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_global_privacy_settings_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_notify_settings_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_notify_settings_ext_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_peer_blocks_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_peer_settings_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_presences_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_privacies_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_profile_photos_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_saved_music_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/user_settings_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/username_dao.go",
+    "app/service/biz/user/internal/dal/dao/mysql_dao/users_dao.go"
+  ],
+  "conflict_notes": [
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'unread_count', 'unread_mentions_count', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'unread_count', 'unread_mentions_count', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'peer_dialog_id', 'read_inbox_max_id', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'peer_dialog_id', 'read_inbox_max_id', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'unread_count', 'unread_mentions_count', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'unread_count', 'unread_mentions_count', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'peer_dialog_id', 'read_inbox_max_id', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "ambiguous-prefer-peer dialogs cols=['user_id', 'peer_type', 'peer_id', 'peer_dialog_id', 'top_message', 'pinned_msg_id', 'peer_dialog_id', 'read_inbox_max_id', 'draft_message_data', 'date2'] -> (user_id, peer_type, peer_id)",
+    "messages shard placeholder __TABLE__ uses (user_id, user_message_box_id)",
+    "messages shard placeholder __TABLE__ uses (user_id, user_message_box_id)"
+  ],
+  "touch_columns": {
+    "auth_key_infos": [
+      "updated_at"
+    ],
+    "auth_users": [
+      "updated_at"
+    ],
+    "auths": [
+      "updated_at"
+    ],
+    "bot_commands": [
+      "updated_at"
+    ],
+    "bots": [
+      "updated_at"
+    ],
+    "chat_invite_participants": [
+      "updated_at"
+    ],
+    "chat_invites": [
+      "updated_at"
+    ],
+    "chat_participants": [
+      "updated_at"
+    ],
+    "chats": [
+      "updated_at"
+    ],
+    "default_history_ttl": [
+      "updated_at"
+    ],
+    "devices": [
+      "updated_at"
+    ],
+    "dialog_filters": [
+      "updated_at"
+    ],
+    "dialogs": [
+      "updated_at"
+    ],
+    "documents": [
+      "updated_at"
+    ],
+    "drafts": [
+      "updated_at"
+    ],
+    "hash_tags": [
+      "updated_at"
+    ],
+    "message_read_outbox": [
+      "updated_at"
+    ],
+    "messages": [
+      "updated_at"
+    ],
+    "phone_books": [
+      "updated_at"
+    ],
+    "popular_contacts": [
+      "update_at"
+    ],
+    "predefined_users": [
+      "updated_at"
+    ],
+    "saved_dialogs": [
+      "updated_at"
+    ],
+    "unregistered_contacts": [
+      "updated_at"
+    ],
+    "user_contacts": [
+      "updated_at"
+    ],
+    "user_global_privacy_settings": [
+      "updated_at"
+    ],
+    "user_notify_settings": [
+      "updated_at"
+    ],
+    "user_peer_blocks": [
+      "updated_at"
+    ],
+    "user_peer_settings": [
+      "updated_at"
+    ],
+    "user_presences": [
+      "updated_at"
+    ],
+    "user_privacies": [
+      "updated_at"
+    ],
+    "user_profile_photos": [
+      "updated_at"
+    ],
+    "user_saved_music": [
+      "updated_at"
+    ],
+    "user_settings": [
+      "updated_at"
+    ],
+    "username": [
+      "updated_at"
+    ],
+    "users": [
+      "updated_at"
+    ]
+  }
+}
