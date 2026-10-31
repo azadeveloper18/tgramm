@@ -1,0 +1,27 @@
+Kgramm changes, 2026-10-31
+
+This directory is telegramdesktop/tdesktop branch dev at
+5ff615713d2178b8458e201778d23d7abe78db9b
+with the edits below. LEGAL and LICENSE stay in force
+(GPL-3.0-or-later and the OpenSSL linking exception stated in LEGAL).
+
+The program connects only to 89.39.95.192 TCP 10443.
+The trusted RSA key is the Kgramm server key. Its MTProto fingerprint,
+including constructor 0x7a19cb76, is 6819615937364357268.
+Telegram datacenter addresses and Telegram RSA keys were removed from
+the built-in lists. help.getConfig cannot add a different host.
+The remote config request no longer contacts Google, Mozilla, or Firebase.
+
+Autoupdate is off (DESKTOP_APP_DISABLE_AUTOUPDATE).
+The update channel name and Updates::RootPublicKeyPem() were not rewritten.
+
+api_id 10000 and api_hash cdd52c2108d4da8b66dffc45aa689a61 are the
+build pair. The server does not check them. The published Telegram
+test pair is not used.
+
+The Windows build is win64 only.
+Window title, about box, installer, version resource, and icon say Kgramm.
+
+Submodule checkouts are not in this tree. Fetch them with
+git submodule update --init --recursive
+from the tgramm clone. See docs/building-win.md.

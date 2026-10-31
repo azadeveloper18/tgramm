@@ -1,0 +1,108 @@
+[submodule "kapgram/Telegram/ThirdParty/GSL"]
+	path = kapgram/Telegram/ThirdParty/GSL
+	url = https://github.com/Microsoft/GSL.git
+[submodule "kapgram/Telegram/ThirdParty/xxHash"]
+	path = kapgram/Telegram/ThirdParty/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+[submodule "kapgram/Telegram/ThirdParty/lz4"]
+	path = kapgram/Telegram/ThirdParty/lz4
+	url = https://github.com/lz4/lz4.git
+[submodule "kapgram/Telegram/lib_crl"]
+	path = kapgram/Telegram/lib_crl
+	url = https://github.com/desktop-app/lib_crl.git
+[submodule "kapgram/Telegram/lib_rpl"]
+	path = kapgram/Telegram/lib_rpl
+	url = https://github.com/desktop-app/lib_rpl.git
+[submodule "kapgram/Telegram/lib_base"]
+	path = kapgram/Telegram/lib_base
+	url = https://github.com/desktop-app/lib_base.git
+[submodule "kapgram/Telegram/codegen"]
+	path = kapgram/Telegram/codegen
+	url = https://github.com/desktop-app/codegen.git
+[submodule "kapgram/Telegram/lib_ui"]
+	path = kapgram/Telegram/lib_ui
+	url = https://github.com/desktop-app/lib_ui.git
+[submodule "kapgram/Telegram/lib_lottie"]
+	path = kapgram/Telegram/lib_lottie
+	url = https://github.com/desktop-app/lib_lottie.git
+[submodule "kapgram/Telegram/lib_tl"]
+	path = kapgram/Telegram/lib_tl
+	url = https://github.com/desktop-app/lib_tl.git
+[submodule "kapgram/Telegram/lib_spellcheck"]
+	path = kapgram/Telegram/lib_spellcheck
+	url = https://github.com/desktop-app/lib_spellcheck
+[submodule "kapgram/Telegram/lib_storage"]
+	path = kapgram/Telegram/lib_storage
+	url = https://github.com/desktop-app/lib_storage.git
+[submodule "kapgram/cmake"]
+	path = kapgram/cmake
+	url = https://github.com/desktop-app/cmake_helpers.git
+[submodule "kapgram/Telegram/ThirdParty/expected"]
+	path = kapgram/Telegram/ThirdParty/expected
+	url = https://github.com/TartanLlama/expected
+[submodule "kapgram/Telegram/ThirdParty/QR"]
+	path = kapgram/Telegram/ThirdParty/QR
+	url = https://github.com/nayuki/QR-Code-generator
+[submodule "kapgram/Telegram/lib_qr"]
+	path = kapgram/Telegram/lib_qr
+	url = https://github.com/desktop-app/lib_qr.git
+[submodule "kapgram/Telegram/ThirdParty/hunspell"]
+	path = kapgram/Telegram/ThirdParty/hunspell
+	url = https://github.com/hunspell/hunspell
+[submodule "kapgram/Telegram/ThirdParty/range-v3"]
+	path = kapgram/Telegram/ThirdParty/range-v3
+	url = https://github.com/ericniebler/range-v3.git
+[submodule "kapgram/Telegram/ThirdParty/nimf"]
+	path = kapgram/Telegram/ThirdParty/nimf
+	url = https://github.com/hamonikr/nimf.git
+[submodule "kapgram/Telegram/ThirdParty/hime"]
+	path = kapgram/Telegram/ThirdParty/hime
+	url = https://github.com/hime-ime/hime.git
+[submodule "kapgram/Telegram/ThirdParty/fcitx5-qt"]
+	path = kapgram/Telegram/ThirdParty/fcitx5-qt
+	url = https://github.com/fcitx/fcitx5-qt.git
+[submodule "kapgram/Telegram/lib_webrtc"]
+	path = kapgram/Telegram/lib_webrtc
+	url = https://github.com/desktop-app/lib_webrtc.git
+[submodule "kapgram/Telegram/ThirdParty/tgcalls"]
+	path = kapgram/Telegram/ThirdParty/tgcalls
+	url = https://github.com/TelegramMessenger/tgcalls.git
+[submodule "kapgram/Telegram/lib_webview"]
+	path = kapgram/Telegram/lib_webview
+	url = https://github.com/desktop-app/lib_webview.git
+[submodule "kapgram/Telegram/ThirdParty/kimageformats"]
+	path = kapgram/Telegram/ThirdParty/kimageformats
+	url = https://github.com/KDE/kimageformats.git
+[submodule "kapgram/Telegram/ThirdParty/kcoreaddons"]
+	path = kapgram/Telegram/ThirdParty/kcoreaddons
+	url = https://github.com/KDE/kcoreaddons.git
+[submodule "kapgram/Telegram/ThirdParty/cld3"]
+	path = kapgram/Telegram/ThirdParty/cld3
+	url = https://github.com/google/cld3.git
+[submodule "kapgram/Telegram/ThirdParty/libprisma"]
+	path = kapgram/Telegram/ThirdParty/libprisma
+	url = https://github.com/desktop-app/libprisma.git
+[submodule "kapgram/Telegram/ThirdParty/xdg-desktop-portal"]
+	path = kapgram/Telegram/ThirdParty/xdg-desktop-portal
+	url = https://github.com/flatpak/xdg-desktop-portal.git
+[submodule "kapgram/Telegram/lib_translate"]
+	path = kapgram/Telegram/lib_translate
+	url = https://github.com/desktop-app/lib_translate
+[submodule "kapgram/Telegram/ThirdParty/cmark-gfm"]
+	path = kapgram/Telegram/ThirdParty/cmark-gfm
+	url = https://github.com/desktop-app/cmark-gfm.git
+[submodule "kapgram/Telegram/ThirdParty/MicroTeX"]
+	path = kapgram/Telegram/ThirdParty/MicroTeX
+	url = https://github.com/desktop-app/MicroTeX.git
+[submodule "kapgram/Telegram/ThirdParty/TooManyCooks"]
+	path = kapgram/Telegram/ThirdParty/TooManyCooks
+	url = https://github.com/tzcnt/TooManyCooks.git
+[submodule "kapgram/Telegram/ThirdParty/libcbor"]
+	path = kapgram/Telegram/ThirdParty/libcbor
+	url = https://github.com/PJK/libcbor.git
+[submodule "kapgram/Telegram/ThirdParty/libfido2"]
+	path = kapgram/Telegram/ThirdParty/libfido2
+	url = https://github.com/Yubico/libfido2.git
+[submodule "kapgram/Telegram/ThirdParty/zxcvbn"]
+	path = kapgram/Telegram/ThirdParty/zxcvbn
+	url = https://github.com/tsyrogit/zxcvbn-c.git
