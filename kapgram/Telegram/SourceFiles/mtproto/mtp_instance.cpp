@@ -370,6 +370,16 @@ Instance::Private::Private(
 		_mainDcId = fields.mainDcId;
 		_mainDcIdForced = true;
 	}
+	// WHY: the stock default main id is 2, and this build publishes only
+	// DC 1. Config then arrives on the enumeration session, and
+	// ConfigLoader::terminateRequest killSession()s that socket.
+	if (!isKeysDestroyer()) {
+		const auto knownDcs = _config->dcOptions().configEnumDcIds();
+		if (!knownDcs.empty()
+			&& ranges::find(knownDcs, _mainDcId.current()) == end(knownDcs)) {
+			_mainDcId = knownDcs.front();
+		}
+	}
 
 	_proxySettings.connectionTypeChanges(
 	) | rpl::on_next([=] {
@@ -479,9 +489,14 @@ void Instance::Private::setGoodProxyDomain(
 }
 
 void Instance::Private::suggestMainDcId(DcId mainDcId) {
-	if (!_mainDcIdForced) {
-		setMainDcId(mainDcId);
+	if (_mainDcIdForced) {
+		return;
 	}
+	const auto knownDcs = dcOptions().configEnumDcIds();
+	if (ranges::find(knownDcs, mainDcId) == end(knownDcs)) {
+		return;
+	}
+	setMainDcId(mainDcId);
 }
 
 void Instance::Private::setMainDcId(DcId mainDcId) {
